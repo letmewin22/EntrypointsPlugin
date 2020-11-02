@@ -8,7 +8,7 @@ This is a webpack plugin that allows you to get all the entrypoints and insert t
 
 or
 
-`yarn add --dev -D emotion-webpack-entrypoints-plugin`
+`yarn add --dev emotion-webpack-entrypoints-plugin`
 
 # Usage
 
