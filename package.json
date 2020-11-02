@@ -1,7 +1,7 @@
 {
   "name": "emotion-webpack-entrypoints-plugin",
-  "version": "1.0.1",
-  "description": "This is a webpack plugin that allows you to get all the entripoints and insert them into your markup.",
+  "version": "1.0.2",
+  "description": "This is a webpack plugin that allows you to get all the entrypoints and insert them into your markup.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

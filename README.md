@@ -1,6 +1,6 @@
 # What is this?
 
-This is a webpack plugin that allows you to get all the entripoints and insert them into your markup.
+This is a webpack plugin that allows you to get all the entrypoints and insert them into your markup.
 
 # Instalation
 
