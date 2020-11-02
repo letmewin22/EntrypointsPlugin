@@ -1,0 +1,23 @@
+{
+  "name": "emotion-webpack-entrypoints-plugin",
+  "version": "1.0.0",
+  "description": "This is a webpack plugin that allows you to get all the entripoints and insert them into your markup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letmewin22/EntrypointsPlugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "entrypoints"
+  ],
+  "author": "emotion-agency <hello@emotion-agency.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/letmewin22/EntrypointsPlugin/issues"
+  },
+  "homepage": "https://github.com/letmewin22/EntrypointsPlugin#readme"
+}

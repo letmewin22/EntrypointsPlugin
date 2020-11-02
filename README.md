@@ -6,6 +6,10 @@ This is a webpack plugin that allows you to get all the entripoints and insert t
 
 `npm i -D emotion-webpack-entrypoints-plugin`
 
+or
+
+`yarn add --dev -D emotion-webpack-entrypoints-plugin`
+
 # Usage
 
 ```
