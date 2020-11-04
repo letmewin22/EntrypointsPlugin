@@ -4,9 +4,6 @@ class EntrypointsPlugin {
   constructor(options) {
     this.options = Object.assign(
       {
-        filename: 'entrypoints.json',
-        replacer: null,
-        space: null,
         filter: null,
         dir: null
       },
@@ -38,11 +35,6 @@ class EntrypointsPlugin {
         if (css.length) entrypoint['css'] = css
         data[key] = entrypoint
       }
-      // const json = JSON.stringify(
-      //   data,
-      //   this.options.replacer,
-      //   this.options.space,
-      // )
 
       addScriptsToHtml(data, this.options.dir)
     })

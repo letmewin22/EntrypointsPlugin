@@ -17,7 +17,7 @@ const EntrypointsPlugin = require('./EntrypointsPlugin/EntrypointsPlugin')
 
 plugins: [
   new EntrypointsPlugin({
-    dir: path.resolve(__dirname, 'build/')
+    dir: path.resolve(__dirname, '[folder with html]')
   })
 ]
 ```
