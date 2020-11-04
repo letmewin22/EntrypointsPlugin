@@ -21,13 +21,15 @@ plugins: [
     path: [path to your scripts]
   })
 ]
-
+```
 **You must have a wrapper for scripts in HTML**
 
+```
 HTML:
   <!-- BEGIN scripts -->
   <!-- END scripts -->
 ```
+
 # Example
 
 ### webpack
@@ -54,8 +56,8 @@ plugins: [
 ### HTML output
 
 ```
-  <!-- BEGIN scripts -->
-    <script src="./js/vendors~app.js"></script> 
-    <script src="./js/app.js"></script>
-  <!-- END scripts -->
+<!-- BEGIN scripts -->
+  <script src="./js/vendors~app.js"></script> 
+  <script src="./js/app.js"></script>
+<!-- END scripts -->
 ```
