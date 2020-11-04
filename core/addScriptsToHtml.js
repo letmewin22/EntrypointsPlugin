@@ -1,11 +1,11 @@
 const fs = require('fs')
 
-function addScriptsToHtml(entrypoints, dir) {
+function addScriptsToHtml(entrypoints, path = './js', dir) {
 
   const outputJs = entrypoints.app.js.map((el) => {
-    return `\n    <script src="./js/${el}"></script>`
+    return `\n    <script src="${path}/${el}"></script>`
   })
-  const rg = /<!-- BEGIN scripts -->(\W.{1,}|\s.{1,}|.{1,}.\s.*){1,}<!-- END scripts -->/gm
+  const rg = /<!-- BEGIN scripts -->(\w|\W.{0,}|\s.{0,}|.{0,}.\s.*){0,}<!-- END scripts -->/gm
 
   const output = `<!-- BEGIN scripts -->${outputJs.join(' ')}
     <!-- END scripts -->`

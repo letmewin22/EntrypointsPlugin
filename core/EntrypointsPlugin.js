@@ -5,7 +5,8 @@ class EntrypointsPlugin {
     this.options = Object.assign(
       {
         filter: null,
-        dir: null
+        dir: null,
+        path: null
       },
       options,
     )
@@ -36,7 +37,7 @@ class EntrypointsPlugin {
         data[key] = entrypoint
       }
 
-      addScriptsToHtml(data, this.options.dir)
+      addScriptsToHtml(data, this.options.path, this.options.dir)
     })
   }
 }
