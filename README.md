@@ -13,7 +13,7 @@ or
 # Usage
 
 ```
-const EntrypointsPlugin = require('./EntrypointsPlugin/EntrypointsPlugin')
+const EntrypointsPlugin = require('emotion-webpack-entrypoints-plugin')
 
 plugins: [
   new EntrypointsPlugin({
@@ -36,7 +36,7 @@ HTML:
 
 ```
 const path = require('path')
-const EntrypointsPlugin = require('./EntrypointsPlugin/EntrypointsPlugin')
+const EntrypointsPlugin = require('emotion-webpack-entrypoints-plugin')
 
 plugins: [
   new EntrypointsPlugin({
